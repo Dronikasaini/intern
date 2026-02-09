@@ -1,6 +1,6 @@
 import React from "react";
 import line from "../component/line.png";
-import Dir from "../component/Director.png";
+import Dir from "../component/director.png";
 
 function Director() {
   return (
