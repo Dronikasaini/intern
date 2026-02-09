@@ -1,9 +1,9 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import Image1 from "../component/Image1.png";
-import Image2 from "../component/Image2.png";
-import Image3 from "../component/Image3.png";
-import Image4 from "../component/Image4.png";
+import Image1 from "../component/image1.png";
+import Image2 from "../component/image2.png";
+import Image3 from "../component/image3.png";
+import Image4 from "../component/image4.png";
 import { HiArrowUpRight } from "react-icons/hi2";
 
 const Img = () => {
