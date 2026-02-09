@@ -17,7 +17,7 @@ const Form = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:5000/post", form);
+      const res = await axios.post("https://internback-vmca.onrender.com", form);
       console.log(res.data);
       alert("Form submitted successfully!");
       setForm({ name: "", email: "", subject: "", message: "" });
