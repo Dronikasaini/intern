@@ -64,12 +64,12 @@ function Footer() {
         </div>
 
         {/* ================= Newsletter ================= */}
-        <div className="flex flex-col gap-4 ml-auto">
+        <div className="flex flex-col gap-4 ml-0 sm:ml-auto">
           <h3 className="abc font-medium text-[20px] text-black leading-[24px]">
             Newsletter
           </h3>
 
-          <p className="abc text-[16px] text-black leading-[100%]">
+          <p className="abc text-[16px] text-black leading-[100%] ">
             Join My Newsletter for Meaningful Updates
           </p>
 
@@ -82,7 +82,7 @@ function Footer() {
       w-full           
       sm:w-[360px]     
       h-[44px]
-      px-4
+      px-0 sm:px-4
       bg-amber-50
       abc
       text-[14px]
@@ -95,7 +95,7 @@ function Footer() {
       w-full          
       sm:w-[122px]    
       h-[44px]
-      px-6
+     px-0 sm:px-6
       bg-[#2200FF]
       text-white
       abc

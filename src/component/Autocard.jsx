@@ -10,16 +10,23 @@ function Autocard() {
   const cards = [...Array(3)].map((_, i) => (
     <div
       key={i}
-      className="card group w-[366px] flex-shrink-0 flex flex-col rounded-[8px] bg-[#F4F6FF] shadow-[0_4px_0_0_#0033FF] p-4 mt-[30px] relative"
+      className="card group flex-shrink-0 flex flex-col rounded-[8px] bg-[#F4F6FF] shadow-[0_4px_0_0_#0033FF] p-4 mt-[30px] relative
+                 w-[90vw] sm:w-[364px] h-[203px] sm:h-[206px]"
     >
-      <div className="flex flex-col gap-4">
-        <img src={icon} alt="icon" className="w-[20px] h-[20px]" />
-        <h2 className="text-black font-semibold abc text-[24px] leading-none">
-          Strategic Leadership
-        </h2>
-        <p className="text-black abc text-sm">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </p>
+      <div className="flex flex-col gap-2 pt-3 pl-3">
+       <h2 className="text-black/80 abc font-semibold capitalize text-[32px] leading-[44.8px] tracking-normal">
+  300%+
+</h2>
+   <p className="abc  text-black/80 font-medium capitalize text-[20px] leading-[28px] tracking-normal">
+  Business Growth
+</p>
+<p className="abc font-normal capitalize text-[16px] leading-[22.4px] tracking-normal text-black/80">
+  Scaled company operations and revenue through strategic decision-making and long-term planning.
+</p>
+
+
+       
+      
       </div>
 
       {/* Optional arrow */}
@@ -54,7 +61,7 @@ function Autocard() {
       onMouseLeave={() => setPause(false)}
     >
       <div
-        className="slider flex gap-[30px]"
+        className="slider flex gap-4 sm:gap-[30px]"
         ref={sliderRef}
         style={{
           transform: `translateX(-${offset}px)`,

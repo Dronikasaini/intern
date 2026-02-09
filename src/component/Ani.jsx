@@ -72,12 +72,24 @@ const Ani = () => {
   return (
     <div
       ref={sectionRef}
-      className="
-        w-full mt-[120px] mb-[50px]
-        md:flex md:justify-center md:gap-18
-        max-sm:grid max-sm:grid-cols-2 max-sm:gap-4 max-sm:justify-items-center
-        max-sm:px-4
-      "
+      // className="
+      //   w-full mt-[120px] mb-[50px]
+      //   md:flex md:justify-center  md:gap-12
+      //   max-sm:grid max-sm:grid-cols-2 max-sm:gap-4 max-sm:justify-items-center
+      //   max-sm:px-4
+      // "
+    //  className="
+//   w-full mt-[120px] mb-[50px]
+//   md:flex md:justify-center md:gap-12
+//   max-sm:grid max-sm:grid-cols-2 max-sm:gap-2 max-sm:justify-items-center
+//   max-sm:px-4
+// "
+className="
+  w-full mt-[120px] mb-[50px]
+  md:flex md:justify-center md:gap-12
+  max-sm:grid max-sm:grid-cols-2 max-sm:gap-x-1 max-sm:gap-y-6 max-sm:justify-items-center
+  max-sm:px-4
+"
     >
       {/* EXPERIENCE */}
       <div className="w-[259px] h-[150px] md:w-[259px] md:h-[150px] max-sm:w-[140px] max-sm:h-[140px] bg-[#F4F6FF] flex flex-col items-center justify-center rounded-xl">
